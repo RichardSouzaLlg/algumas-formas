@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amor em Todas as Línguas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <div class="password-box" id="passwordBox">
+    <h2>🔐 Oque voce representa pra mim moh?:</h2>
+    <input type="password" id="passwordInput" placeholder="Digite aqui... anda amor" />
+    <button onclick="verifyPassword()">Entrar</button>
+  </div>
+
+  <div class="container" id="mainContainer" style="display: none;">
+    <h1>Apenas pra te lembrar que...</h1>
+    <div id="lovePhrasesContainer"></div>
+    <button onclick="showNextPhrases()">💌 Mostrar mais</button>
+    <div class="footer">Vc eh a minha princesinha Emilly💍❤️</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
